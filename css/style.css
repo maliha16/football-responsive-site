@@ -1,0 +1,174 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+   
+
+}
+
+/* ------top-section-style-sheet-------- */
+.header-part{
+
+   width: 100%;
+    margin:0;
+   
+}
+.top-part{
+    background-color: rgb(93, 61, 209);
+    height: 320px;
+  display: flex;
+padding-left: 100px ;
+    padding-bottom: 235px; 
+
+}
+
+.half-width h1{
+    font-size: 41px;
+font-weight: bolder;
+    color: white;
+    height: 150px;
+    width: 320px;
+}
+.half-width{
+ padding: 5%;
+ height: 100%;
+
+}
+
+.half-width img{
+    height: 380px;
+    width: 540px;
+padding-top: 5px ;
+}
+
+
+.link-button{
+text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 15px;
+    color:rgb(235, 233, 230);
+    font-weight: 700;
+   
+    background-image: linear-gradient(rgb(233, 104, 233),rgb(211, 23, 117));
+}
+.link-button:hover{
+box-shadow: 0 0 30px #ed4df3, 0 0 40px #ed4df3, 0 0 80px #ed4df3;
+}
+
+/*----- main part style-------- */
+
+.middle-part{
+    display: flex;
+}
+.blogs{
+    height: 300px;
+    width: 100%;
+
+
+}
+
+
+
+
+
+
+/*------- footer style----- */
+
+.middle-part{
+    margin-top: 50px;
+   display: flex;
+
+}
+
+.players{
+    margin: 0 auto  ;
+   max-width: 1000px;
+ 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:repeat(3,1fr) ;
+    gap: 20px;
+
+}
+.player{
+   box-shadow: 0 0 3px rgba(0, 0 ,0 ,0.1);
+
+}
+
+ .player img{
+display: block;
+width: 100%
+}
+.player-info{
+    
+   font-size: 0.9em;
+   padding: 15px;
+   background: #fafafa;
+}
+.player-detail{
+
+    color: rgba(117, 110, 110, 0.945);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+    font-size: 18px;
+}
+/* --------bonus-part---- */
+
+.bonus-part{
+    display: flex;
+    margin-top: 60px;
+height: 500px;
+}
+.video-container{
+    display: block;
+    padding: 5%;
+    margin-left: 10px;
+    
+}
+.youtube-video{
+    text-align: center;
+  
+   font-size: 30px;
+    color: rgb(89, 21, 167);
+}
+ /*----- bonus-table------- */
+ .another-bonus-part{
+     margin-top: 30px;
+    padding: 0 15px;
+
+ }
+ table{
+border-collapse: collapse;
+margin-left: 450px;
+ }
+td, th{
+    border: 5px solid rgb(238, 220, 220);
+    
+}
+
+/*-------- footer section--------- */
+.footer-part{
+    margin-top: 80px;
+}
+.footer-detail img{
+
+margin-left: 450px ;
+    height: 130px;
+    width: 400px;
+}
+.footer-icon{
+    text-align: center;
+    padding: 5px;
+    font-size: 20 px;
+}
+
+
+
+
+
+
+
+
+/*--------- Media Queries----------- */
+
+/*------------ Mobile devices--------- */
